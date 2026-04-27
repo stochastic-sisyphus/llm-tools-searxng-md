@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "llm-tools-searxng-md"
-version = "0.2.0"
+version = "0.2.1"
 description = "LLM plugin: SearXNG search tool returning LLM-friendly markdown output"
 readme = "README.md"
 authors = [{ name = "Vanessa Beck", email = "vanessa.beckk1@gmail.com" }]
