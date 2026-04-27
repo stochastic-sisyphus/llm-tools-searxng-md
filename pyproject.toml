@@ -3,9 +3,9 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "llm-tools-searxng"
-version = "0.1.0"
-description = "LLM plugin that exposes a searxng_search tool backed by a self-hosted SearXNG instance"
+name = "llm-tools-searxng-md"
+version = "0.2.0"
+description = "LLM plugin: SearXNG search tool returning LLM-friendly markdown output"
 readme = "README.md"
 authors = [{ name = "Vanessa Beck", email = "vanessa.beckk1@gmail.com" }]
 license = { text = "Apache-2.0" }
@@ -28,9 +28,9 @@ dependencies = [
 test = ["pytest", "pytest-httpx"]
 
 [project.urls]
-Homepage = "https://github.com/vanessabeck/llm-tools-searxng"
-Changelog = "https://github.com/vanessabeck/llm-tools-searxng/releases"
-Issues = "https://github.com/vanessabeck/llm-tools-searxng/issues"
+Homepage = "https://github.com/stochastic-sisyphus/llm-tools-searxng-md"
+Changelog = "https://github.com/stochastic-sisyphus/llm-tools-searxng-md/releases"
+Issues = "https://github.com/stochastic-sisyphus/llm-tools-searxng-md/issues"
 
 [project.entry-points.llm]
-tools_searxng = "llm_tools_searxng"
+tools_searxng_md = "llm_tools_searxng_md"
